@@ -1,8 +1,8 @@
 import React from 'react';
 import "./Footer.css"
-import Facebook from "../../asets/Footer/facebook.png"
-import Instagram from "../../asets/Footer/instagram.png"
-import Twitter from "../../asets/Footer/twitter.png"
+// import Facebook from "../../asets/Footer/facebook.png"
+// import Instagram from "../../asets/Footer/instagram.png"
+// import Twitter from "../../asets/Footer/twitter.png"
 // import FacebookIcon from '@mui/icons-material/Facebook';
 
 export default function Footer() {
