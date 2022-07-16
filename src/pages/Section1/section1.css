@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.SectionFirst{
+    background-image: url(../../asets/Section1/Rectangle\ 19.png);
+    background-repeat: no-repeat;
+    width: 1400px;
+    height: 742px;
+}
+
+.section1_img{
+    justify-content: center;
+    padding: 220px 99px;
+    align-items: center;
+ 
+
+    width: 100%;
+    height: auto;
+}
