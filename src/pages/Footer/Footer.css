@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Alef:wght@400;700&display=swap');
+
+.footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #46362B;
+}
+
+.footer h1{
+    color: white;
+    padding-top: 40px;
+}
+
+.footer-first-p, .footer-second-p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Alef', sans-serif;
+    color: white;
+    width: 800px;
+    text-align: center;
+}
+
+.footer-first-p{
+    padding-top: 35px;
+}
+
+.footer-second-p{
+    margin-top: 20px;
+}
+
+
+.footer-email{
+    width: 554px;
+    height: 54px;
+    background: #EEB960;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.footer-email p{
+    font-family: 'Abel', sans-serif;
+    font-size: 34px;
+    font-weight: 400;
+}
+
+.footer h2{
+    font-family: 'Alef';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    /* or 158% */
+
+    text-align: center;
+    letter-spacing: 0.1em;
+
+    color: #FFFFFF;
+    padding-top: 40px;
+}
