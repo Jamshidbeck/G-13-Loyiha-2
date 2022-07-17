@@ -1,0 +1,112 @@
+
+*
+{
+    transition: all 0.5s;
+}
+
+.section4
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.section4 .header{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section4 .header .heading
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.section4 .header .heading > span
+{
+    width: 30%;
+    height: 3px;
+    background: #EEB960;
+}
+.section4 .header .heading > p
+{   
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 63px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    color: #332B25;
+}
+.section4 .header .span1
+{
+    margin-top: 21px;
+    width: 70%;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #46362B;
+}
+.section4 .box-container
+{
+    padding: 78px 200px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10rem;
+}
+.section4 .box-container .box
+{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 25rem;
+    align-items: center;
+    justify-content: center;
+}
+.section4 .box-container .box .img
+{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    border: rgba(0, 0, 0, 0.7);
+    border-radius: 6px;
+}
+.section4 .box-container .box .img img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.section4 .box-container .box .img:hover img
+{
+    transform: scale(1.1);
+}
+.section4 .box-container .box p
+{
+    margin-top: 1rem;
+    font-family: 'Abel';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #332B25;
+}
+.section4 .box-container .box .cost
+{
+    font-family: 'Anaheim';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: rgba(70, 54, 43, 0.8);
+}
+
+
+
+
