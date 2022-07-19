@@ -12,6 +12,12 @@
     background: #E5E5E5;
 
 }
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .main
 {
     max-width: 1400px;

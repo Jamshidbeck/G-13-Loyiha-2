@@ -14,25 +14,24 @@
 .footer h1{
     color: white;
     padding-top: 40px;
+    text-decoration: underline #EEB960;
 }
 
 .footer-first-p, .footer-second-p{
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 24px;
+    font-weight: 500;
     font-family: 'Alef', sans-serif;
     color: white;
-    width: 800px;
-    text-align: center;
+    width: 850px;    text-align: center;
 }
 
 .footer-first-p{
-    padding-top: 35px;
+    padding-top: 50px;
 }
 
 .footer-second-p{
-    margin-top: 20px;
+    margin-top: 40px;
 }
-
 
 .footer-email{
     width: 554px;
@@ -43,7 +42,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 20px;
+    margin-top: 40px;
 }
 
 .footer-email p{
@@ -65,4 +64,24 @@
 
     color: #FFFFFF;
     padding-top: 40px;
+    text-decoration: underline #EEB960;
+}
+
+.footer-icons-div{
+    padding-top: 30px;
+}
+
+.footer-icons{
+    width: 110px;
+    height: 110px;
+    color: #EEB960;
+    margin: 0 30px;
+    cursor: pointer;
+}
+
+.footer-icons:hover{
+    width: 112px;
+    height: 112px;
+    margin: 0 40px;
+    color: black;
 }
