@@ -69,6 +69,7 @@
 
 .footer-icons-div{
     padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .footer-icons{
@@ -84,4 +85,77 @@
     height: 112px;
     margin: 0 40px;
     color: black;
+}
+
+/* +++++++++++++++ RESPONSIVE ++++++++++++++ */
+
+@media (max-width: 900px){
+    .footer-first-p, .footer-second-p{
+        width: 500px;
+        font-size: 20px;
+    }
+
+    .footer-email{
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 600px){
+    .footer-email{
+        width: 350px;
+        height: 40px;
+    }
+
+    .footer-email p{
+        font-size: 24px;
+    }
+
+    .footer-icons{
+        width: 50px;
+        height: 50px;
+        margin: 0 15px;;
+    }
+
+    .footer-icons:hover{
+        width: 50px;
+        height: 50px;
+        margin: 0 15px;
+        color: black;
+    }
+}
+
+@media (max-width: 500px){
+    .footer h1{
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .footer-first-p, .footer-second-p{
+        font-size: 14px;
+        width: 300px;
+    }
+
+    .footer-email{
+        width: 310px;
+    }
+
+    .footer-email p{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 340px){
+
+    .footer-first-p, .footer-second-p{
+        font-size: 14px;
+        width: 250px;
+    }
+
+    .footer-email{
+        width: 240px;
+    }
+
+    .footer-email p{
+        font-size: 18px;
+    }
 }
